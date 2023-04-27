@@ -6,7 +6,7 @@ RUN apt-get install -y cowsay
 RUN apt-get install -y python3.10
 RUN apt-get install -y python3-pip
 
-ENV PATH=$PATH:/usr.games
+ENV PATH=$PATH:/usr/games
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 
